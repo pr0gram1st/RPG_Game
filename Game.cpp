@@ -94,12 +94,3 @@ int Game::getOption() const{
 bool Game::isPlaying() const {
     return playing;
 }
-
-if(walk){
-    continue;
-}
-if(wait()){
-    if(rand() % 3 == 0){
-        create fight;
-    }
-}
