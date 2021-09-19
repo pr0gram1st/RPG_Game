@@ -99,6 +99,10 @@ public:
         return level;
     }
 
+    int getMaxhp(){
+        return maxHP;
+    }
+
     void levelup() { //automatic method to rise up level of character
         int lvls = this->exp / lvlup;
         this->exp %= lvlup;
