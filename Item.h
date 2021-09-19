@@ -21,6 +21,9 @@ public:
         cout << "Name: " << this->name << endl;
         cout << "Price: " << this->price << endl;
     }
+    string getName(){
+        return this->name;
+    }
 private:
     string name;
     int price;
