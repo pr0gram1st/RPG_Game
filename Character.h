@@ -95,6 +95,10 @@ public:
         return life;
     }
 
+    int getLvl(){
+        return level;
+    }
+
     void levelup() { //automatic method to rise up level of character
         int lvls = this->exp / lvlup;
         this->exp %= lvlup;
